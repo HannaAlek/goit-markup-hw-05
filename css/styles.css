@@ -551,6 +551,7 @@ img{
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .subscribe-form-button:hover,
