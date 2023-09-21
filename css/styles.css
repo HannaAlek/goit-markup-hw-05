@@ -487,6 +487,70 @@ img{
     background-color: #31D0AA;
 }
 
+.page-footer-subscribe{
+    display: flex;
+    justify-content:right;
+    
+}
+
+.page-footer-subscribe-description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.footer-subscribe-form{
+    display: flex;
+    gap: 24px;
+}
+
+.user-email-send{
+    display: block;
+}
+
+.subscribe-form-user-email{
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    padding: 8px 16px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5; /* 200% */
+    letter-spacing: 0.04em;
+    background-color: transparent;
+}
+
+.subscribe-form-user-email::placeholder{
+    color: #FFFFFF;
+}
+
+.subscribe-form-button{
+    display: flex;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
+    border: none;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-send{
+    margin-left: 16px;
+}
+
 .backdrop{
     position: fixed;
     top: 0;
